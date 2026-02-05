@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  
+  # Spring Integration configuration
+  integration:
+    endpoint:
+      no-auto-startup: false
+
+logging:
+  level:
+    org.springframework.integration: DEBUG
+    com.apigateway: DEBUG
